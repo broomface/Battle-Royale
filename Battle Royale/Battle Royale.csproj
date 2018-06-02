@@ -43,12 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Characters\Equipment\Armor\Chainlink.cs" />
+    <Compile Include="Characters\Equipment\Armor\ClothRobe.cs" />
+    <Compile Include="Characters\Equipment\Armor\LightLeatherVest.cs" />
+    <Compile Include="Characters\Melee\Assassin.cs" />
+    <Compile Include="Characters\Melee\Knight.cs" />
+    <Compile Include="Characters\Melee\Warrior.cs" />
+    <Compile Include="Characters\SpellCasters\Druid.cs" />
+    <Compile Include="Characters\SpellCasters\Mage.cs" />
+    <Compile Include="Characters\SpellCasters\Necromancer.cs" />
+    <Compile Include="Characters\Equipment\Weapon\Axe.cs" />
+    <Compile Include="Characters\Equipment\Weapon\Hammer.cs" />
+    <Compile Include="Characters\Equipment\Weapon\Staff.cs" />
+    <Compile Include="Characters\Equipment\Weapon\Sword.cs" />
+    <Compile Include="EntryPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
