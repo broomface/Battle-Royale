@@ -43,19 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Characters\Equipment\Armor\Chainlink.cs" />
-    <Compile Include="Characters\Equipment\Armor\ClothRobe.cs" />
-    <Compile Include="Characters\Equipment\Armor\LightLeatherVest.cs" />
+    <Compile Include="Equipment\Armor\HeavyArmor\Chainlink.cs" />
+    <Compile Include="Equipment\Armor\LightArmor\ClothRobe.cs" />
+    <Compile Include="Equipment\Armor\MediumArmor\LightLeatherVest.cs" />
     <Compile Include="Characters\Melee\Assassin.cs" />
     <Compile Include="Characters\Melee\Knight.cs" />
     <Compile Include="Characters\Melee\Warrior.cs" />
     <Compile Include="Characters\SpellCasters\Druid.cs" />
     <Compile Include="Characters\SpellCasters\Mage.cs" />
     <Compile Include="Characters\SpellCasters\Necromancer.cs" />
-    <Compile Include="Characters\Equipment\Weapon\Axe.cs" />
-    <Compile Include="Characters\Equipment\Weapon\Hammer.cs" />
-    <Compile Include="Characters\Equipment\Weapon\Staff.cs" />
-    <Compile Include="Characters\Equipment\Weapon\Sword.cs" />
+    <Compile Include="Equipment\Weapon\Edged\Axe.cs" />
+    <Compile Include="Equipment\Weapon\BluntForce\Hammer.cs" />
+    <Compile Include="Equipment\Weapon\BluntForce\Staff.cs" />
+    <Compile Include="Equipment\Weapon\Edged\Sword.cs" />
     <Compile Include="EntryPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
